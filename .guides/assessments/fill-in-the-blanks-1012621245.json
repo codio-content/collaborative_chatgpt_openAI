@@ -1,0 +1,51 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-1012621245",
+	"source": {
+		"name": " environment for open discussion",
+		"showName": false,
+		"instructions": "**Fill In the Blank** with the most appropriate response. ",
+		"showValues": true,
+		"text": " ChatGPT API can be used to create a <<<supportive>>> environment for open discussion and evaluation of the generated ideas during a brainstorming session.",
+		"distractors": "competitive\ncoding",
+		"guidance": "The ChatGPT API can be an effective tool for facilitating brainstorming sessions, offering suggestions, and helping developers consider alternative ways of tackling coding challenges.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"tokens": {
+			"blank": [
+				"supportive"
+			],
+			"text": [
+				" ChatGPT API can be used to create a ",
+				0,
+				" environment for open discussion and evaluation of the generated ideas during a brainstorming session."
+			],
+			"regexPositions": []
+		}
+	}
+}

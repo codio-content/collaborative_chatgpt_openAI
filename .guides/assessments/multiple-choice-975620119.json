@@ -1,0 +1,57 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-975620119",
+	"source": {
+		"name": "ChatGPT API",
+		"showName": false,
+		"instructions": "**When using the ChatGPT API to encourage a discussion among team members about error handling in Python, which role in the API call describes the disagreement between team members?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9d39f2a1-8354-e419-6041-b890cb0f5350",
+				"correct": false,
+				"answer": "assistant"
+			},
+			{
+				"_id": "c2dc30b9-8de0-c6a5-4979-5b7e0d8102a9",
+				"correct": true,
+				"answer": "user"
+			},
+			{
+				"_id": "e5ae2a67-7ae5-64dd-84ee-685175776d08",
+				"correct": false,
+				"answer": "system"
+			}
+		],
+		"guidance": "In the given API call, the user message describes the disagreement between Alice and Bob about whether to use exceptions or return codes for error handling in Python. The user role is used to present queries, information or contexts to the AI. In this case, it is used to present the issue that needs to be discussed.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

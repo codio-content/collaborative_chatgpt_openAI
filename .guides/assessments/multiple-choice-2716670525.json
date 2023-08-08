@@ -1,0 +1,45 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2716670525",
+	"source": {
+		"name": "Managing conversations with the ChatGPT API",
+		"showName": false,
+		"instructions": "**True or False:**\nWhen managing conversations with the ChatGPT API, it is important to incorporate user messages and ensure each team member is represented using distinct user roles or identifiers.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7a596d43-dca6-f2c7-760f-2a5190122a86",
+				"correct": true,
+				"answer": "True"
+			},
+			{
+				"_id": "5febea20-932a-ef47-f076-a3bc2305cade",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "The lesson mentions the importance of incorporating user messages and ensuring that each team member is represented in the conversation when managing conversations using the ChatGPT API. This helps create a more cohesive and interactive discussion.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

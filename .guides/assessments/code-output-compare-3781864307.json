@@ -1,0 +1,55 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-3781864307",
+	"source": {
+		"name": "Coding Exerc",
+		"showName": false,
+		"instructions": "Please click the button below, when ready to submit your code!",
+		"command": "python3 .guides/secure/GradedEX.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": true,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Test passed!",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"exerc.py",
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

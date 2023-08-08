@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2110433678",
+	"source": {
+		"name": "Collaborative programming environment",
+		"showName": false,
+		"instructions": "**Which of the following is NOT mentioned as a way of controlling the ChatGPT API in a collaborative programming environment?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f3a5b25c-9929-3436-e139-16944c8e6502",
+				"correct": false,
+				"answer": "Adapting it to team dynamics"
+			},
+			{
+				"_id": "35e5ba04-27fd-6c5d-7903-6a16c4886185",
+				"correct": false,
+				"answer": "Controlling its responsiveness"
+			},
+			{
+				"_id": "dde7e388-5ba8-b323-146d-35ba47854c20",
+				"correct": true,
+				"answer": " Having it create new programming languages"
+			},
+			{
+				"_id": "40c71f79-293e-a448-5597-e30d6e2d5415",
+				"correct": false,
+				"answer": "Using it to address questions and clarify misunderstandings"
+			}
+		],
+		"guidance": "The following are mentioned the ability to control the ChatGPT API by adapting it to team dynamics, controlling its responsiveness, and using it to address questions and clarify misunderstandings. However, having the API create new programming languages is not mentioned as a method of control.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

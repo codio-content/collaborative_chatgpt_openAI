@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4166878991",
+	"source": {
+		"name": "ChatGPT API",
+		"showName": false,
+		"instructions": "**Why does the 'role' attribute matter when using the ChatGPT API?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4fe7b143-6fd4-a2fe-371a-c83b004a17fe",
+				"correct": true,
+				"answer": "It differentiates between user and system messages."
+			},
+			{
+				"_id": "09a1290f-a268-82e1-b143-04c54dc9eeeb",
+				"correct": false,
+				"answer": "It changes the language of the response."
+			},
+			{
+				"_id": "95adc643-f0d5-cfe3-1928-232fbf307271",
+				"correct": false,
+				"answer": "It modifies the speed of the response."
+			},
+			{
+				"_id": "a93efa24-298c-99e1-769c-2ccd19c686bf",
+				"correct": false,
+				"answer": "It affects the sentiment of the response."
+			}
+		],
+		"guidance": "The 'role' attribute is used to differentiate between user and system messages. User messages instruct the model on what task to perform, and system messages provide important contextual information about the task. This distinction is crucial for the API to generate the correct and contextually appropriate responses.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
